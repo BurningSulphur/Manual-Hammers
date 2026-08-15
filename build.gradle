@@ -29,6 +29,9 @@ sourceSets.main.resources {
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 base {
@@ -116,6 +119,8 @@ configurations {
 }
 
 dependencies {
+
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
@@ -137,6 +142,9 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+    implementation "curse.maven:manual-labour-1642344:8652143"
+    implementation "curse.maven:yacl-667299:7437845"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
