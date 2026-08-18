@@ -13,6 +13,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels(){
-        basicItem(ModItems.CRYSTALLINE_HAMMER.get()); //don't need to worry about
+        basicItem(ModItems.CRYSTALLINE_HAMMER.get()); //don't need to worry about if the mod is installed or not
     }
 }
