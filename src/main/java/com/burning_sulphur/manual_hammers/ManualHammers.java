@@ -32,7 +32,6 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import static com.burning_sulphur.manual_hammers.item.ModItems.CRYSTALLINE_HAMMER;
-import static com.burning_sulphur.manual_hammers.item.ModItems.TEST_HAMMER;
 import static net.minecraft.world.item.CreativeModeTabs.TOOLS_AND_UTILITIES;
 
 

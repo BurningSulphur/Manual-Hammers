@@ -13,7 +13,7 @@ import net.neoforged.neoforge.registries.RegistryBuilder;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ManualHammers.MOD_ID);
 
-    public static final DeferredItem<Item> TEST_HAMMER = ITEMS.register("test_hammer", () -> new HammerItem(Tiers.IRON, 6.0f, -3.1f, new Item.Properties()));
+    //public static final DeferredItem<Item> TEST_HAMMER = ITEMS.register("test_hammer", () -> new HammerItem(Tiers.IRON, 6.0f, -3.1f, new Item.Properties()));
 
     //-----------------------------------------ADDING HAMMERS----------------------------------------
     /*
@@ -22,11 +22,9 @@ public class ModItems {
      2. Make the Hammer here - import the material tier
      3. add it to the creative menu in ManualHammers
      4. Add the name to the Lang Files
-     5. Add item model in assets/manual_hammers/models/item
+     5. Add to list in ModItemTagProvider
      6. Add item texture in assets/manual_hammers/textures/item
-     7. Add tag to data/manual_labour/tags/item/hammers
-     8. Add tag to data/c/tags/item/tools.json
-     9. Add tag to data/c/tags/item/tools/hammer.json
+
 
 
 

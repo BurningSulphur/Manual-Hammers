@@ -16,7 +16,7 @@ public class ModTags {
 
     }
     public static class Items{
-        public static final TagKey<Item> TEST = createTag ("test");
+        //public static final TagKey<Item> TEST = createTag ("test");
         public static final TagKey<Item> TOOLS_HAMMER = ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tools/hammer"));
 
 

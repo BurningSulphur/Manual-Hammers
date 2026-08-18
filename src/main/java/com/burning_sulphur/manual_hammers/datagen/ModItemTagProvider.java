@@ -39,9 +39,15 @@ public class ModItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
 
         List<ResourceLocation> hammerItems = new ArrayList<>();
+        //--------------------------------------------------ADD HAMMERS HERE--------------------------------------------
         if (ModList.get().isLoaded("phantasm")) {
             hammerItems.add(ModItems.CRYSTALLINE_HAMMER.getId());
         }
+
+
+
+
+        //--------------------------------------------------------------------------------------------------------------
 
 
         for (ResourceLocation currentHammerItem: hammerItems) {
