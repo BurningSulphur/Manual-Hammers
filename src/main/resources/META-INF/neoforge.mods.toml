@@ -8,7 +8,7 @@
 modLoader="javafml" #mandatory
 
 # A version range to match for said mod loader - for regular FML @Mod it will be the FML version. This is currently 2.
-loaderVersion="${neoforge_loader_version_range}" #mandatory
+loaderVersion="${loader_version_range}" #mandatory
 
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
@@ -63,6 +63,6 @@ side = "BOTH"
 [[dependencies."${mod_id}"]]
 modId="manual_labour"
 type="required"
-versionRange="[2.3.0)"
+versionRange="[2.3.0,)"
 ordering="NONE"
 side="BOTH"
