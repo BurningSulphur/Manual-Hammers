@@ -5,14 +5,14 @@
 # Find more information on toml format here:  https://github.com/toml-lang/toml
 
 # The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
-modLoader="javafml" #mandatory
+modLoader = "javafml" #mandatory
 
 # A version range to match for said mod loader - for regular FML @Mod it will be the FML version. This is currently 2.
-loaderVersion="${loader_version_range}" #mandatory
+loaderVersion = "${loader_version_range}" #mandatory
 
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="${license}"
+license = "${license}"
 
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
@@ -46,12 +46,12 @@ side = "BOTH"
 
 # Here's another dependency
 [[dependencies."${mod_id}"]]
-    modId="minecraft"
-    type="required"
-    # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="${minecraft_version_range}"
-    ordering="NONE"
-    side="BOTH"
+modId = "minecraft"
+type = "required"
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
@@ -61,8 +61,8 @@ side = "BOTH"
 
 
 [[dependencies."${mod_id}"]]
-modId="manual_labour"
-type="required"
-versionRange="[2.3.0,)"
-ordering="NONE"
-side="BOTH"
+modId = "manual_labour"
+type = "required"
+versionRange = "[2.3.0,)"
+ordering = "NONE"
+side = "BOTH"

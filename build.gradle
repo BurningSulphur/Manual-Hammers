@@ -34,7 +34,6 @@ repositories {
     }
 
 
-
     exclusiveContent {
         forRepository {
             maven {
@@ -197,7 +196,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-    implementation "curse.maven:manual-labour-1642344:8652143"
+    implementation "curse.maven:manual-labour-1642344:8658265"
     implementation "curse.maven:yacl-667299:7437845"
     implementation "curse.maven:phantasm-565254:6367800"
 
@@ -224,11 +223,14 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             minecraft_version      : minecraft_version,
             minecraft_version_range: minecraft_version_range,
             neo_version            : neo_version,
+            neoforge_version       : neoforge_version,
             loader_version_range   : loader_version_range,
             mod_id                 : mod_id,
             mod_name               : mod_name,
-            mod_license            : mod_license,
-            mod_version            : mod_version,
+            license                : mod_license,
+            version                : mod_version,
+            mod_author             : mod_author,
+            description            : mod_description
     ]
     inputs.properties replaceProperties
     expand replaceProperties
