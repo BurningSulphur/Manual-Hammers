@@ -3,6 +3,22 @@
     {
       "id": "manual_hammers:crystalline_hammer",
       "required": false
+    },
+    {
+      "id": "manual_hammers:gobber_hammer",
+      "required": false
+    },
+    {
+      "id": "manual_hammers:gobber_hammer_nether",
+      "required": false
+    },
+    {
+      "id": "manual_hammers:gobber_hammer_end",
+      "required": false
+    },
+    {
+      "id": "manual_hammers:enderite_hammer",
+      "required": false
     }
   ]
 }

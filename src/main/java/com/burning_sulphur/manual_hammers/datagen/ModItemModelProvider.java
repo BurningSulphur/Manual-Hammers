@@ -14,5 +14,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels(){
         basicItem(ModItems.CRYSTALLINE_HAMMER.get()); //don't need to worry about if the mod is installed or not
+        basicItem(ModItems.GOBBER_HAMMER.get());
+        basicItem(ModItems.GOBBER_HAMMER_NETHER.get());
+        basicItem(ModItems.GOBBER_HAMMER_END.get());
+        basicItem(ModItems.ENDERITE_HAMMER.get());
     }
 }

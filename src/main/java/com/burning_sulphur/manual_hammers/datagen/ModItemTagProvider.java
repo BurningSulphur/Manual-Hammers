@@ -43,6 +43,14 @@ public class ModItemTagProvider extends ItemTagsProvider {
         if (ModList.get().isLoaded("phantasm")) {
             hammerItems.add(ModItems.CRYSTALLINE_HAMMER.getId());
         }
+        if (ModList.get().isLoaded("gobber2")) {
+            hammerItems.add(ModItems.GOBBER_HAMMER.getId());
+            hammerItems.add(ModItems.GOBBER_HAMMER_NETHER.getId());
+            hammerItems.add(ModItems.GOBBER_HAMMER_END.getId());
+        }
+        if (ModList.get().isLoaded("enderitemod")) {
+            hammerItems.add(ModItems.ENDERITE_HAMMER.getId());
+        }
 
 
 
@@ -65,6 +73,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         tag(externalTag("phantasm", "gets_xp_speed_boost"))
                 .addOptional(ModItems.CRYSTALLINE_HAMMER.getId());
+
+
+        tag(externalTag("enderitemod", "enderite_tools"))
+                .addOptional(ModItems.ENDERITE_HAMMER.getId());
+        tag(externalTag("enderitemod", "enderite_items"))
+                .addOptional(ModItems.ENDERITE_HAMMER.getId());
 
 
     }

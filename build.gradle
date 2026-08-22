@@ -201,6 +201,11 @@ dependencies {
     implementation "curse.maven:phantasm-565254:6367800"
     implementation "curse.maven:gobber-301700:5788529"
 
+    //enderite (so many dependencies)
+    implementation "curse.maven:enderite-mod-for-forge-401284:5888831"
+    implementation "curse.maven:architectury-api-419699:8492726"
+    implementation "curse.maven:cloth-config-348521:5729127"
+    implementation "curse.maven:shulkerboxtooltip-315811:7768285"
 
     // JEI
     compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:19.27.0.340"

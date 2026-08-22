@@ -26,13 +26,14 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+
+import com.burning_sulphur.manual_hammers.item.ModItems;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import static com.burning_sulphur.manual_hammers.item.ModItems.CRYSTALLINE_HAMMER;
-import static net.minecraft.world.item.CreativeModeTabs.TOOLS_AND_UTILITIES;
+
 
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -68,8 +69,17 @@ public class ManualHammers {
     //------------------------------------------ADDING TO CREATIVE MENU--------------------------------------------
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (CRYSTALLINE_HAMMER != null && (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)) {
-            event.accept(CRYSTALLINE_HAMMER.get());
+        if (ModItems.CRYSTALLINE_HAMMER != null && (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)) {
+            event.accept(ModItems.CRYSTALLINE_HAMMER .get());
+        }
+        if (ModItems.GOBBER_HAMMER != null && (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)) {
+            event.accept(ModItems.GOBBER_HAMMER.get());
+        }if (ModItems.GOBBER_HAMMER_NETHER != null && (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)) {
+            event.accept(ModItems.GOBBER_HAMMER_NETHER.get());
+        }if (ModItems.GOBBER_HAMMER_END != null && (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)) {
+            event.accept(ModItems.GOBBER_HAMMER_END.get());
+        }if (ModItems.ENDERITE_HAMMER != null && (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)) {
+            event.accept(ModItems.ENDERITE_HAMMER.get());
         }
     }
 

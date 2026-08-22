@@ -1,5 +1,8 @@
 {
 
-  "item.manual_hammers.crystalline_hammer": "Crystalline Hammer"
-
+  "item.manual_hammers.crystalline_hammer": "Crystalline Hammer",
+  "item.manual_hammers.gobber_hammer": "Gobber Workshop Hammer",
+  "item.manual_hammers.gobber_hammer_nether": "Nether Workshop Hammer",
+  "item.manual_hammers.gobber_hammer_end": "End Workshop Hammer",
+  "item.manual_hammers.enderite_hammer": "Enderite Hammer"
 }
