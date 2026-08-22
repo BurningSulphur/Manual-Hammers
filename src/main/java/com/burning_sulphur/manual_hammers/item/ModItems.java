@@ -24,6 +24,7 @@ public class ModItems {
      4. Add the name to the Lang Files
      5. Add to list in ModItemTagProvider
      6. Add item texture in assets/manual_hammers/textures/item
+     7. add recipe
 
 
 

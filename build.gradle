@@ -199,6 +199,7 @@ dependencies {
     implementation "curse.maven:manual-labour-1642344:8658265"
     implementation "curse.maven:yacl-667299:7437845"
     implementation "curse.maven:phantasm-565254:6367800"
+    implementation "curse.maven:gobber-301700:5788529"
 
 
     // JEI
