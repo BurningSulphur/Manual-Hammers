@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "manual_hammers:item/gobber_hammer_nether"
+  }
+}
